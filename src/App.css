@@ -1,1 +1,16 @@
-
+.App {
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  background-image: url(../imgs/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+footer {
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+footer a {
+  color: #ffffff;
+}
