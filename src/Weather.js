@@ -27,12 +27,11 @@ export default function Weather() {
           </div>
           <div className="col-5 temperature">
             <span className="units"> 18°C </span>
-            <span>Cloudy</span>
           </div>
         </div>
         <div className="row">
           <div className="col-1"></div>
-          <div className="col-6 main-cloud">
+          <div className="col-6">
             <img
               src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
               alt=""
@@ -40,7 +39,10 @@ export default function Weather() {
             />
           </div>
           <br />
-          <div className="col-5 description"></div>
+          <div className="col-5 description">
+            {" "}
+            <span>Cloudy</span>
+          </div>
         </div>
         <div className="row">
           <div className="col-7"></div>
