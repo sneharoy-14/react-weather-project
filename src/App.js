@@ -4,7 +4,7 @@ import Weather from "./Weather";
 export default function App() {
   return (
     <div className="App">
-      <Weather />
+      <Weather defaultCity="London" />
       <footer>
         <a
           href="https://github.com/sneharoy-14/react-weather-project"
