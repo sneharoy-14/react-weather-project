@@ -61,23 +61,6 @@ export default function Weather(props) {
             </div>
           </form>
           <WeatherInfo data={weatherData} />
-
-          <div className="weather-forecast">
-            <div className="row">
-              <div className="col-2">
-                <div className="weather-forecast-date">Tue</div>
-                <img
-                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
-                  alt=""
-                  width="42"
-                />
-                <div className="weather-forecast-temp">
-                  <span className="weather-forecast-temp-min">11°</span>
-                  <span className="weather-forecast-temp-max">15°</span>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     );
