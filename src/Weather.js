@@ -15,8 +15,7 @@ export default function Weather(props) {
       humidity: response.data.temperature.humidity,
       description: response.data.condition.description,
       wind: response.data.wind.speed,
-      iconUrl:
-        "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png",
+      iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
     });
   }
 
